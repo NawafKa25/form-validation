@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins:ital,wght@0,400;1,100&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url('./images/dest.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    backdrop-filter: blur(0px);
+}
+
+.navbar-brand{
+     
+    font-weight: 900;
+    
+}
+.carousel-item{
+    height: 350px;
+    width: 300px;
+    
+} 
+.carousel-item img{
+    padding: 00px 900px;
+    object-fit:cover
+}
+h1{
+    color: white !important;
+    padding-top: 2%;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    font-size: 50px;
+    text-align: center;
+    font-weight:900;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;;
+
+}
+p{
+   color: rgb(0, 0, 0);
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.col{
+    width: 30px;
+}
+
+.row{
+
+justify-content:center;
+    align-content: center;
+    padding-top: 80px;
+}

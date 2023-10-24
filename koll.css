@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins:ital,wght@0,400;1,100&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url('./images/kollmain.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+#home1{
+    text-shadow: 2px 2px 4px #000000;
+}
+.navbar-brand{
+     
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+.carousel-item{
+    height: 350px;
+    width: 300px;
+    
+} 
+.carousel-item img{
+    padding: 00px 1000px;
+    object-fit:cover;
+    
+}
+h1{
+    color: white !important;
+    padding-top: 6%;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    font-size: 50px;
+    text-align: center;
+    font-weight:900;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+
+
+}
+p{
+   color: white;
+    padding-top: 60px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 0px;
+    text-align: justify;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
